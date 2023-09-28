@@ -13,7 +13,12 @@
 </head>
 
 <body>
-    @yield('absolute')
+    @section('absolute')
+        @includeIf('layouts.figures.one')
+        @includeIf('layouts.figures.two')
+        {{-- @includeIf('layouts.figures.three') --}}
+        @includeIf('layouts.figures.four')
+    @show
     <div class="container root ">
         <div class="row mx-auto">
             <header>

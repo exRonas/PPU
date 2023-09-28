@@ -1,7 +1,16 @@
+html, body{
+    overflow-x: hidden;
+}
+
 .main__content{
     right: 0;
     left: 0;
 }
+.main__wrapper{
+    transition: 1s all ease;
+    transform: translateX(4000px);
+}
+
 .figure__one{
     position: absolute;
     z-index: -1;
@@ -67,4 +76,25 @@
 
 .card__block{
     border: 0;
+}
+
+@media (max-width: 992px) {
+    .card__block{
+        margin: 0 auto;
+    }
+    .btn__block{
+        margin: 20px auto;
+    }
+    .card-body{
+        text-align: center;
+    }
+}
+
+@media (max-width: 536px) {
+    .section__img{
+        display: none;
+    }
+    .card-body{
+        text-align: center;
+    }
 }
