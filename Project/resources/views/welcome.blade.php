@@ -7,7 +7,8 @@
 
 @section('main.css')
     @parent
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="{{asset('css/index.css')}}">
+    <link rel="stylesheet" href="{{asset('css/welcome.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap"
@@ -22,7 +23,7 @@
 @endsection
 
 @section('main.main')
-    <div class="section main__wrapper">
+    <div class="section main__wrapper mt-4">
         <div class="row">
             
             <div class="section__img col-lg-6 col-md-10">
@@ -49,6 +50,6 @@
 
 @section('main.js')
 @parent
-<script src="js/jquery/dist/jquery.min.js"></script>
-<script src="js/index.js"></script>
+<script src="{{asset("js/jquery/dist/jquery.min.js")}}"></script>
+<script src="{{asset("js/welcome.js")}}"></script>
 @endsection
