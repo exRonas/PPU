@@ -1,42 +1,26 @@
 :root{
     --main-font: 'Playfair Display', serif;
+    --input-font: 'Montserrat', sans-serif;
 }
+
 html, body{
     overflow-x: hidden;
 }
 
-.card__title{
+.card__title, .question__title{
     font-weight: 700;
 }
-.card__text, .text, .card__title{
+.card__text, .text, .question__title, .question__text{
     font-family: var(--main-font);
 }
-.figure__one{
-    position: absolute;
-    z-index: -1;
+.form-input, .page_list, .btn_send, .error_block, .result_button, .accordion_text, .accordion_header, .quote_text, .quote_author, .card__title{
+    font-family: var(--input-font);
 }
-
-.figure__two{
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-/* .figure__three{
-    position: absolute;
-    right: 0;
-    z-index: -1;
-} */
-.figure__four{
-    position: absolute;
-    left: 25%;
-    z-index: -1;
+.form-input:focus{
+    background-color: inherit;
+    border: 0;
+    outline: 0;
 }
 .main{
     padding: 100px 0;
-}
-
-@media (min-width: 1366px){
-    html, body{
-        overflow: hidden;
-    }
 }

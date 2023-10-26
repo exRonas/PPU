@@ -16,7 +16,7 @@
 .main{
     padding: 100px 0 0 0;
 }
-.btn__choice{
+.btn__choice, .back{
     border-radius: 20px;
     font-size: 1.2rem;
     background: linear-gradient(0deg, rgba(179, 136, 101, 0.5), rgba(179, 136, 101, 0.5));
@@ -25,7 +25,7 @@
     font-family: 'Playfair Display', serif;
 }
 
-.btn__choice:hover{
+.btn__choice:hover, .back:hover{
     font-size: 1.3rem;
     border: 1px solid black;
 }
@@ -49,5 +49,11 @@
 @media (max-width:992px){
     .card__block{
         display: none;
+    }
+}
+
+@media (min-width: 1366px){
+    html, body{
+        overflow: hidden;
     }
 }

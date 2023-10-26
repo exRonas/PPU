@@ -1,6 +1,6 @@
-<div class="section figure__one col-4">
+<div class="section figure__one col-4 sticky-top">
     {{-- height="900" --}}
-    <svg class='' viewBox="0 0 836 1026" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class='sticky-top' viewBox="0 0 836 1026" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M-51.3365 273.375C25.0573 249.69 166.693 232.039 122.085 350.915C66.3242 499.509 -130.676 548.114 5.36719 601.125C114.202 643.533 226.659 586.216 269.283 552.256C328.279 505.512 442.787 430.673 428.85 505.272C414.912 579.871 525.214 618.379 582.107 628.309L791.909 638.735" stroke="black"/>
         <circle cx="791.225" cy="638.701" r="32.1127" transform="rotate(60 791.225 638.701)" fill="url(#paint0_linear_33_38580)"/>
         <circle cx="787.889" cy="638.536" r="32.1127" transform="rotate(60 787.889 638.536)" fill="url(#paint1_linear_33_38580)"/>

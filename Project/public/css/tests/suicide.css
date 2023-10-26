@@ -1,0 +1,33 @@
+input{
+    appearance: none;
+
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.2s all linear;
+}
+.form-check{
+    position: relative;
+}
+.fixed__title{
+}
+.radio__yes{
+}
+.radio__no{
+}
+
+.radio__yes:checked{
+    background-color: #d6b4aa;
+    border: 2px solid #d6b4aa;
+}
+.radio__no:checked{
+    background-color: #e7c9c1;
+}
+
+.page{
+
+}
+
+.page_list{
+    
+}

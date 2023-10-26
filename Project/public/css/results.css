@@ -1,0 +1,60 @@
+.card-title{
+    font-weight: 700;
+}
+
+.result{
+    background: linear-gradient(
+        206.69deg,
+        rgba(167, 171, 182, 0.4) 12.61%,
+        rgba(231, 201, 193, 0.2) 81.4%
+    ),
+    radial-gradient(50% 50% at 50% 50%, #e7c9c1 0%, rgba(0, 0, 0, 0) 100%),
+    radial-gradient(
+        57.09% 266.57% at 50% 50%,
+        #e7c9c1 0%,
+        rgba(231, 201, 193, 0) 100%
+    );
+position: relative;
+-webkit-box-shadow: 7px 9px 12px -1px rgba(196,154,143,1);
+-moz-box-shadow: 7px 9px 12px -1px rgba(196,154,143,1);
+box-shadow: 7px 9px 12px -1px rgba(196,154,143,1);
+border-radius: 20px !important;
+}
+
+.result_accordion{
+    background: inherit;
+}
+
+.result_button{
+    background: inherit;
+}
+
+.result_button:focus{
+background: inherit;
+color: inherit;
+box-shadow: none;
+}
+
+.result_button:not(.collapsed){
+    background: inherit;
+    box-shadow: none;
+    color: black;
+}
+
+.back{
+    border-radius: 20px;
+    font-size: 1.2rem;
+    background: linear-gradient(0deg, rgba(179, 136, 101, 0.5), rgba(179, 136, 101, 0.5));
+    border: 1px solid black;
+    transition: 0.4s all ease;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.back:hover{
+    font-size: 1.3rem;
+    padding: 8px;
+    -webkit-box-shadow: 0px 1px 8px -1px rgba(196,154,143,1);
+    -moz-box-shadow: 0px 1px 8px -1px rgba(196,154,143,1);
+    box-shadow: 0px 1px 8px -1px rgba(196,154,143,1);
+}

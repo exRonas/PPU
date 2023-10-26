@@ -1,0 +1,1 @@
+<h3 class="card-title card__title fs-4 mb-3">{{$slot}}</h3>

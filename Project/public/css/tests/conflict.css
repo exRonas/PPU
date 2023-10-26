@@ -1,0 +1,64 @@
+
+.question {
+    background: linear-gradient(
+            206.69deg,
+            rgba(167, 171, 182, 0.4) 12.61%,
+            rgba(231, 201, 193, 0.2) 81.4%
+        ),
+        radial-gradient(50% 50% at 50% 50%, #e7c9c1 0%, rgba(0, 0, 0, 0) 100%),
+        radial-gradient(
+            57.09% 266.57% at 50% 50%,
+            #e7c9c1 0%,
+            rgba(231, 201, 193, 0) 100%
+        );
+    border: 0;
+    border-radius: 20px;
+}
+
+.test_title {
+    background: linear-gradient(
+            180deg,
+            #e7c9c1 0%,
+            rgba(167, 171, 182, 0.58) 100%
+        );
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.btn_send{
+    background: linear-gradient(
+        206.69deg,
+        rgba(167, 171, 182, 0.4) 12.61%,
+        rgba(231, 201, 193, 0.2) 81.4%
+    ),
+    radial-gradient(50% 50% at 50% 50%, #e7c9c1 0%, rgba(0, 0, 0, 0) 100%),
+    radial-gradient(
+        57.09% 266.57% at 50% 50%,
+        #e7c9c1 0%,
+        rgba(231, 201, 193, 0) 100%
+    );
+border: 0;
+border-radius: 20px;
+}
+
+.btn_send:hover{
+    background-color: none;
+}
+
+input{
+    appearance: none;
+
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.2s all linear;
+}
+
+.question__radio{
+    border: 3px solid #d6b4aa;
+}
+
+.question__radio:checked{
+    border: 1px solid #d6b4aa;
+    background-color: #d6b4aa;
+}

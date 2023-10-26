@@ -1,0 +1,1 @@
+<p class="card-text card__text mt-3">{{$slot}}</p>

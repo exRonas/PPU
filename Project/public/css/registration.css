@@ -1,0 +1,60 @@
+.form{
+    padding: 100px 30px;
+    background: rgb(232,161,142);
+    background: linear-gradient(180deg, rgba(232,161,142,0.4) 0%, rgba(217,214,221,0.67) 80%);
+    border-radius: 30px;
+}
+.row{
+    align-items: center;
+}
+
+.form__side{
+    background-color: inherit;
+    border: 0;
+}
+
+.form-input{
+    border: 0;
+    background-color: inherit;
+    border-bottom: 1px solid rgba(179, 136, 101, 1);
+    border-radius: 10px;
+}
+.form-input:focus{
+    border-bottom: 1px solid rgba(179, 136, 101, 1);
+    padding: 15px;
+    box-shadow: none;
+}
+
+.form__right{
+
+}
+
+.btn__choice{
+    border-radius: 20px;
+    font-size: 1.2rem;
+    background: linear-gradient(0deg, rgba(179, 136, 101, 0.5), rgba(179, 136, 101, 0.5));
+    border: 1px solid black;
+    transition: 0.2s all ease;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn__choice:hover{
+    font-size: 1.3rem;
+    background: linear-gradient(0deg, rgba(174, 117, 70, 0.5), rgba(179, 136, 101, 0.5));
+    border: 1px solid black;
+}
+
+.btn__back{
+    border-radius: 20px;
+    font-size: 1.2rem;
+    background: linear-gradient(0deg, rgba(157, 153, 149, 0.5), rgba(215, 174, 141, 0.5));
+    border: 1px solid black;
+    transition: 0.2s all ease;
+    font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 620px){
+    .form{
+        padding-top: 30px;
+    }
+}

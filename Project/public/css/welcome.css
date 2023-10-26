@@ -50,3 +50,9 @@
         text-align: center;
     }
 }
+
+@media (min-width: 1366px){
+    html, body{
+        overflow: hidden;
+    }
+}

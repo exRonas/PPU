@@ -1,0 +1,24 @@
+.figure__one{
+    position: absolute;
+    z-index: -1;
+}
+
+body{
+    background: url('/Project/resources/views/layouts/figures/four.blade.php');
+}
+
+.figure__two{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* .figure__three{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+} */
+.figure__four{
+    position: absolute;
+    left: 25%;
+    z-index: -1;
+}

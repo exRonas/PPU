@@ -117,7 +117,8 @@ $(function () {
                 setTimeout(function() {
                     $(".btn__prev").removeClass("disabled");
                 }, 400);
-                if ($(current).prev().length) {
+                if ($(current).prev('.card__block').length) {
+                    // Фиксить 
                     $(current).fadeOut(400, function () {
                         $(current).css("display", "none");
                         current = $(current)
